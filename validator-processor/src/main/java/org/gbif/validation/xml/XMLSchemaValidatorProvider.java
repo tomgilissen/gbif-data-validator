@@ -14,7 +14,8 @@ import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 
-import com.sun.org.apache.xerces.internal.util.XMLCatalogResolver;
+//import com.sun.org.apache.xerces.internal.util.XMLCatalogResolver;
+import org.apache.xerces.util.XMLCatalogResolver;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
